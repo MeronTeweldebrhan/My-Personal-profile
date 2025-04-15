@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('wp4511164.jpg');
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px ;
+    max-width: 700px;
+    width: 100%;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px ;
+   margin-right: auto;
+}
+.profile-info {
+    text-align: center;
+}
+
+.job-title {
+    color: #666;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.location {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.education {
+    color: #007acc;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #444;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007acc;
+}
+
+.about, .projects {
+    margin-top: 30px;
+}
+
+.about h2, .projects h2 {
+    color: #222;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.projects ul {
+    padding-left: 20px;
+}
+
+.projects li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+
+
+
+
+

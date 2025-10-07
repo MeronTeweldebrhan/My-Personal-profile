@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* Professional Background Patterns */
+.bg-pattern-graphy {
+  background-image: url('https://www.transparenttextures.com/patterns/graphy.png');
+  background-repeat: repeat;
+}
+
+.bg-pattern-graphy-local {
+  background-image: url('./assets/graphy.png');
+  background-repeat: repeat;
+}
+
+.bg-pattern-dots {
+  background-image: radial-gradient(circle, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-pattern-grid {
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-pattern-diagonal {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 16px,
+    rgba(59, 130, 246, 0.04) 16px,
+    rgba(59, 130, 246, 0.04) 17px
+  );
+}
+
+.bg-pattern-noise {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.1) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Professional Hexagon Pattern */
+.bg-pattern-hexagon {
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.05) 2px, transparent 2px);
+  background-size: 30px 26px;
+  background-position: 0 0, 15px 13px;
+}
+
+/* Subtle Wave Pattern */
+.bg-pattern-waves {
+  background-image:
+    radial-gradient(ellipse at center, rgba(59, 130, 246, 0.04) 0%, transparent 50%);
+  background-size: 60px 40px;
+}
+
+/* Professional Mesh Pattern */
+.bg-pattern-mesh {
+  background-image:
+    linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(99, 102, 241, 0.02) 1px, transparent 1px),
+    linear-gradient(-45deg, rgba(99, 102, 241, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
+}
+
+/* Smooth Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Glass Morphism Effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Professional Hover Effects */
+.hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3b82f6, #6366f1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #2563eb, #4f46e5);
+}
